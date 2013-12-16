@@ -1,50 +1,54 @@
 {
-    "name": "goblin",
-    "version": "0.0.3",
-    "main": "./lib/goblin.js",
-    "description": "Pure javascript content management system designed to serve static pages in the cloud.",
-    "author": {
-        "name": "Nick Weingartner - Managing Editor Inc",
-        "email": "nweingartner@maned.com",
-        "url": "http://www.maned.com"
+  "name": "goblin",
+  "version": "0.0.3",
+  "main": "./lib/goblin.js",
+  "description": "Pure javascript content management system designed to serve static pages in the cloud.",
+  "author": {
+    "name": "Nick Weingartner - Managing Editor Inc",
+    "email": "nweingartner@maned.com",
+    "url": "http://www.maned.com"
+  },
+  "contributors": [
+    {
+      "name": "Sotirios Vrachas",
+      "email": "sotiros@vrachas.net"
     },
-    "contributors": [{
-        "name": "Sotirios Vrachas",
-        "email": "sotiros@vrachas.net"
-    }, {
-        "name": "Dave Mullen",
-        "email": "upperdecker@gmail.com"
-    }],
-    "keywords": [
-        "CMS",
-        "Javascript CMS",
-        "CouchDB",
-        "static page",
-        "server"
-    ],
-    "homepage": "https://github.com/maned/goblin",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/maned/goblin.git"
-    },
-    "bugs": {
-        "url": "https://github.com/maned/goblin/issues"
-    },
-    "readmeFilename": "README.md",
-    "license": "GPLv3",
-    "dependencies": {
-        "cradle": "~0.6.6",
-        "mu2": "~0.5.19",
-        "express": "~3.3.5",
-        "underscore": "~1.5.1",
-        "grunt-complexity": "~0.1.3"
-    },
-    "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-jslint": "1.0.0",
-        "grunt-contrib-cssmin": "~0.6.2",
-        "grunt-contrib-requirejs": "~0.4.0",
-        "grunt-text-replace": "~0.3.6",
-        "grunt-contrib-watch": "~0.5.3"
+    {
+      "name": "Dave Mullen",
+      "email": "upperdecker@gmail.com"
     }
+  ],
+  "keywords": [
+    "CMS",
+    "Javascript CMS",
+    "CouchDB",
+    "static page",
+    "server"
+  ],
+  "homepage": "https://github.com/maned/goblin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maned/goblin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maned/goblin/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "GPLv3",
+  "dependencies": {
+    "cradle": "~0.6.6",
+    "mu2": "~0.5.19",
+    "express": "~3.3.5",
+    "underscore": "~1.5.1",
+    "grunt-complexity": "~0.1.3",
+    "fs-extra": "~0.8.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-jslint": "1.0.0",
+    "grunt-contrib-cssmin": "~0.6.2",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-text-replace": "~0.3.6",
+    "grunt-contrib-watch": "~0.5.3"
+  }
 }

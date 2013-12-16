@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Goblin QUnit Tests</title>
+		<link rel="stylesheet" href="css/qunit/qunit-1.11.0.css">
+
+        <!-- QUnit JS-->
+        <script src="js/vendor/qunit-1.11.0.js"></script>
+
+        <script>
+        	// Defer Qunit so RequireJS can work its magic and resolve all modules.
+        	QUnit.config.autostart = false;
+        </script>
+
+        <!-- Configure Test & Initialize Test Suite -->
+        <script src="js/test-config.js"></script>
+        <script src="js/vendor/require.js" data-main="tests/test-suite.js"></script>
+
+	</head>
+	<body>
+		<!-- QUnit divs -->
+		<div id="qunit"></div>
+		<div id="qunit-fixture"></div>
+	</body>
+</html>
